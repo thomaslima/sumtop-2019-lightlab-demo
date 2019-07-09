@@ -4,7 +4,7 @@ default: help ;
 
 venv: venv/bin/activate
 venv/bin/activate:
-	test -e venv/bin/activate || virtualenv -p python3 --prompt "(ipc-demo) " --distribute venv
+	test -e venv/bin/activate || virtualenv -p python3 --prompt "(sumtop-demo) " --distribute venv
 	touch venv/bin/activate
 
 devbuild: venvinfo/devreqs~
